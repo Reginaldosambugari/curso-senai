@@ -1,10 +1,15 @@
-﻿// See https://aka.ms/new-console-template for more information
-int num;
-Console.WriteLine("Digite um número?");
-num = Convert.ToInt32(Console.ReadLine());
-if (num % 2 == 0){
-Console.WriteLine("O número digitado é par!!");
-}else{}
-{
-    Console.WriteLine("O número digitado é impar");
-}
+﻿string nome;
+float peso, altura;
+int idade;
+Console.WriteLine("Qual seu nome?");
+nome = Console.ReadLine();
+Console.WriteLine("Qual seu peso?");
+peso = Convert.ToSingle(Console.ReadLine());
+Console.WriteLine("Qual sua idade?");
+idade = Convert.ToInt32(Console.ReadLine());
+Console.WriteLine("Qual a sua altura?");
+altura = Convert.ToSingle(Console.ReadLine());
+Console.WriteLine("Seu nome é: " + nome);
+Console.WriteLine("Seu peso é: " + peso ,"kgs");
+Console.WriteLine("Sua idade é: " + idade, "anos");
+Console.WriteLine("Sua altura é: " + altura, "metros");
